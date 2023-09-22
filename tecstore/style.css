@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #101010;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*MENU DO SITE*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+}
+
+nav li:hover {
+    background-color: rgb(46, 155, 218);
+    transition: 0.3s;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*MENU DO SITE*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 500px;
+    font-size: 35px;
+}
+
+span {
+    color: rgb(46, 155, 218);
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(46, 155, 218);
+    border-color: rgb(46, 155, 218);
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+    color: rgb(7, 7, 7);
+    background-color: white;
+    border-color: #2e9bda;
+    transition: 0.3s;
+}
+
+/*TELA DE ABOUT*/
+
+.about {
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid;
+    border-color: #2e2e2e;
+}
+
+.about-form {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+h3 {
+    width: 250px;
+    font-size: 50px;
+    color: #2e9bda;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    border-color: #ed546f;
+}
+
+p {
+    font-size: 20px;
+}
